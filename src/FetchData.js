@@ -5,11 +5,15 @@ import TextField from 'material-ui/TextField';
 import HeartRateTable from './HeartRateTable.js';
 
 const styles = {
-    "buttonStyles": {
-        "marginTop": "20px",
-        "marginBotton": "20px",
-        "color": "blue",
-    }
+          buttonStyle: {
+            background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+            borderRadius: 3,
+            border: 0,
+            color: 'white',
+            height: 48,
+            padding: '0 30px',
+            boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .30)',
+          },
 };
 
 const rootURL='http://0.0.0.0:5000/api';
@@ -49,13 +53,10 @@ export default class FetchData extends React.Component {
                             <TextField
 					                value={this.state.emailTextField}
 					                onChange={this.onEmailTextFieldChange}
-                                    style={{ width: '300px', margin: '50px', input: { margin: 20 } }}/>
-                            <Button variant="raised" onClick={this.onButtonClick}>
+                                    style={{ width: '300px', justify: 'center', margin: '50px', input: { margin: 20 } }}/>
+                            <Button variant="raised" onClick={this.onButtonClick} style={styles.buttonStyle}>
 					                Search Database
                             </Button>
-                            <div style={styles.buttonStyles}>
-				            </div>
-                            <myLineChart/>
                             <HeartRateTable
                                     email = {this.state.emailTextField}
                                     heartRates={this.state.heartRates}

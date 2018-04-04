@@ -7,6 +7,7 @@
     "chart.js": "^2.7.2",
     "cors": "^2.8.4",
     "material-ui": "^1.0.0-beta.40",
+    "moment": "^2.22.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-scripts": "1.1.1"

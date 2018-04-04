@@ -6,7 +6,9 @@ __Description:__ Frontend viewer for heart rate information from my heart rate w
 
 ## Instructions
 
-Make sure you have Node and NPM installed. Launch npm on your local machine:
+Make sure you have Node and NPM installed and enable CORS (cross-origin resource sharing) in your browser. This is available as an extension in Chrome.
+
+Launch npm on your local machine:
 ```
 npm run
 ```

@@ -36,7 +36,6 @@ export default class FetchData extends React.Component {
 
 	    onButtonClick = () => {
             console.log(this.state.emailTextField); // log the current nameTextField content
-            // const email = this.state.nameTextField;
             axios.get(`${rootURL}/heart_rate/${this.state.emailTextField}`).then(
                 (response) => {
                     this.setState({"heartRates": response.data["User heart rates and times"][0]});

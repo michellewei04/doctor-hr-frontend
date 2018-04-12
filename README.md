@@ -4,7 +4,7 @@ __Contributors:__ Michelle Wei
 
 __Description:__ Frontend viewer for heart rate information from my heart rate web service.
 
-![alt text](https://github.com/michellewei04/doctor-hr-frontend/images/mwei_heartrates.png, "mwei@gmail.com heart rates")
+![alt text](https://github.com/michellewei04/doctor-hr-frontend/images/mwei_heartrates.png "mwei@gmail.com heart rates")
 
 ## Instructions
 
